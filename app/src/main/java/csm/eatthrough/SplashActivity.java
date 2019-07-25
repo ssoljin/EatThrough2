@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 2000);
+        }, 2000);   //Show MainPage for 2 seconds
 
     }
 }

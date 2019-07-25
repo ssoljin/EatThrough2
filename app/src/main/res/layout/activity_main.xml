@@ -3,12 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
 
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         class="com.google.android.gms.maps.MapFragment" />
+
+    <!--<androidx.cardview.widget.CardView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--app:cardCornerRadius="4dp"-->
+        <!--&gt;-->
+        <!--<fragment-->
+            <!--android:id="@+id/place_autocomplete_fragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"-->
+            <!--&gt;</fragment>-->
+
+    <!--</androidx.cardview.widget.CardView>-->
 
 </LinearLayout>
